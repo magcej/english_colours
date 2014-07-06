@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="english_colours.css" type="text/css">
+  <title>Colours</title>
+  <style>
+    body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  </style>
+<header class="colours">colours</header>
+</head>
+<body>
+<script type="text/javascript">
+var my_canvas = document.createElement('canvas');
+my_canvas.width = 700;
+my_canvas.height = 700;
+document.body.appendChild(my_canvas);
+
+var ctx = my_canvas.getContext('2d');
+
+ctx.fillStyle = '#33CCFF'; //blue
+ctx.fillRect(30, 30, 100, 100);
+
+ctx.fillStyle = '#FF0000'; //red
+ctx.fillRect(180, 30, 100, 100);
+
+ctx.fillStyle = '#00FF80'; //green
+ctx.fillRect(330, 30, 100, 100);
+
+ctx.fillStyle = '#FFFF00'; //yellow
+ctx.fillRect(330, 330, 100, 100);
+
+ctx.fillStyle = '#FF66CC'; //pink
+ctx.fillRect(30, 180, 100, 100);
+
+ctx.fillStyle = '#996633'; //brown
+ctx.fillRect(180, 180, 100, 100);
+
+ctx.fillStyle = '#FF9900'; //orange
+ctx.fillRect(330, 180, 100, 100);
+
+ctx.fillStyle = '#CC33FF'; //violet
+ctx.fillRect(30, 330, 100, 100);
+
+ctx.fillStyle = 'black';
+ctx.fillRect(180, 330, 100, 100);
+
+
+
+
+
+
+</script>
+</body>
+</html>
