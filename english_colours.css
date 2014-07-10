@@ -6,3 +6,74 @@
 
 
 }
+.klocek {
+    width:200px;
+    height: 200px;
+    text-align: center;
+    color: white;
+    font-family: Arial;
+    font-size: 36px;
+}
+
+.red {
+    background-color: #FF0000;
+
+}
+
+.blue {
+    background-color: #33CCFF;
+}
+
+.yellow {
+    background-color: #FFFF00;
+}
+
+.green {
+    background-color: #00FF80;
+}
+
+.pink {
+    background-color: #FF66CC;
+}
+
+.brown {
+    background-color: #996633;
+}
+
+.orange {
+    background-color: #FF9900;
+}
+
+.violet {
+    background-color: #CC33FF;
+}
+
+.black {
+    background-color: black;
+}
+
+.row {
+    width: 640px;
+    height:220px;
+    position: relative;
+
+
+}
+
+.kolumna1 {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.kolumna2 {
+    top: 0px;
+    left: 220px;
+    position: absolute;
+}
+
+.kolumna3 {
+    top: 0px;
+    left: 440px;
+    position: absolute;
+}
