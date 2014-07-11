@@ -15,44 +15,12 @@
   </style>
     <script type="text/javascript">
         $(document).ready(function() {
-            // all jQuery code goes here
-            $('.blue').click(function() {
-                $(this).html("BLUE");
+
+            $('.klocek').click(function() {
+                var colorName = $(this).attr('data-color');
+                console.log(colorName);
+                $(this).html(colorName);
             });
-
-            $('.red').click(function() {
-                $(this).html("RED");
-            });
-
-            $('.green').click(function() {
-                $(this).html("GREEN");
-            });
-
-            $('.yellow').click(function() {
-                $(this).html("YELLOW");
-            });
-
-            $('.pink').click(function() {
-                $(this).html("PINK");
-            });
-
-             $('.brown').click(function() {
-                $(this).html("BROWN");
-             });
-
-             $('.orange').click(function() {
-                $(this).html("ORANGE");
-             });
-
-             $('.violet').click(function() {
-                $(this).html("VIOLET");
-             });
-
-             $('.black').click(function() {
-                $(this).html("BLACK");
-            });
-            
-
 
         });
     </script>
@@ -64,21 +32,21 @@
 
 
 <div class="row">
-<div class="blue klocek kolumna1"></div>
-<div class="red klocek kolumna2"></div>
-<div class="green klocek kolumna3"></div>
+<div class="blue klocek kolumna1" data-color="BLUE"></div>
+<div class="red klocek kolumna2" data-color="RED"></div>
+<div class="green klocek kolumna3" data-color="GREEN"></div>
 </div>
 
 <div class="row">
-<div class="yellow klocek kolumna1"></div>
-<div class="pink klocek kolumna2"></div>
-<div class="brown klocek kolumna3"></div>
+<div class="yellow klocek kolumna1" data-color="YELLOW"></div>
+<div class="pink klocek kolumna2" data-color="PINK"></div>
+<div class="brown klocek kolumna3" data-color="BROWN"></div>
 </div>
 
 <div class="row">
-<div class="orange klocek kolumna1"></div>
-<div class="violet klocek kolumna2"></div>
-<div class="black klocek kolumna3"></div>
+<div class="orange klocek kolumna1" data-color="ORANGE"></div>
+<div class="violet klocek kolumna2" data-color="VIOLET"></div>
+<div class="black klocek kolumna3" data-color="BLACK"></div>
 </div>
 
 </body>
